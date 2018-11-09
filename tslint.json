@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "curly": false,
+    "promise-function-async": true,
+    "member-access": false,
+    "no-angle-bracket-type-assertion": false,
+    "no-bitwise": false,
+    "no-console": false,
+    "no-implicit-dependencies": false,
+    "no-shadowed-variable": false,
+    "no-string-literal": false,
+    "no-unused-expression": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "prefer-conditional-expression": false,
+    "prefer-object-spread": false,
+    "variable-name": [
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ]
+  }
+}
